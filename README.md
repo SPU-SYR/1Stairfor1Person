@@ -21,3 +21,31 @@
   1. showing title 
   2. three for each exercise - front step up, lateral step up, hip exercise, lunge exercise
 ```
+
+#### 4. Photo of raspberry pi
+```
+- Two HX711 are used using parallel connection
+ * HX711 for left side: 
+    GPIO.setmode(GPIO.BCM)
+    uses (dout_pin = 5, pd_sck_pin = 6, gain_channel_A = 64, select_channel = 'A')
+    
+ * HX711 for right side: 
+    GPIO.setmode(GPIO.BCM)
+    uses (dout_pin = 23, pd_sck_pin = 24, gain_channel_A = 64, select_channel = 'A')
+```
+![KakaoTalk_20210605_231244478_01](https://user-images.githubusercontent.com/45995611/120894526-d0a52080-c653-11eb-8a81-3c1917b480bc.jpg)
+
+#### 4. Configuration of load cells - three wires Load Cells
+```
+- each load cell can measure up to 50kg
+- circuit: full bridge circuit of load cell
+- load cell tutorial: https://www.youtube.com/watch?v=sxzoAGf1kOo
+- 3d printing for load cell frame: https://www.thingiverse.com/thing:4602226
+
+```
+![KakaoTalk_20210605_231244478_02](https://user-images.githubusercontent.com/45995611/120894658-8ec8aa00-c654-11eb-9baa-ceb409e96133.jpg)
+
+
+
+#### 5. Configuration
+![KakaoTalk_20210605_231244478](https://user-images.githubusercontent.com/45995611/120894832-60979a00-c655-11eb-8bb1-abe28524d66d.jpg)
