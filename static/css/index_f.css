@@ -1,0 +1,461 @@
+body {
+    background: #ffffff; /* 배경에서 아웃라인 색만*/
+    font-family: "Montserrat", sans-serif;
+  }
+  
+video {
+  max-width: 100%;
+  /* //width: 320px; */
+
+  max-height: 100%;
+  width: 720px;
+  height: 480px;
+
+  /* //filter: blur(4px) inver(1) opacity(0.5);
+  //filter: hue-rotate(0deg) saturate(150%);	//90(G),180(B),270(R) */
+}
+  
+  /*딱 가운데가 0,0이고, xy 축*/
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .bg { /*맨 위 그림 부분*/
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80rem;
+  }
+  
+  /* .bg {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    width: 50rem;
+  } */
+  
+  
+  
+  .content {
+    font-family: system-ui, serif;
+    font-size: 2rem;
+    width: 118rem;
+    height: 90rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  /* .logo {
+    z-index: 8;
+    width: 350px;
+    position: absolute;
+    top: 90px;
+    left: -176px;
+  } */
+  
+  .title { /*1stair 부분*/
+    position: absolute;
+    top: -5rem;
+    font-size: 85px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .img {
+    margin-bottom: -19rem;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img__text { /*pose checking 부분*/
+    color: black;
+    /* margin-bottom: -5px; */
+    margin-top: -400px;
+    margin-left : -700px;
+    /* margin-right : -500px; */
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  
+  .img__box {
+    display: flex;
+    flex-direction: start;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .content__form {
+    position: relative;
+  }
+  
+  p {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    position: relative;
+    font-size: 30px;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 18px;
+    border: 1px solid white;
+    margin-top: 5px;
+    background: none;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  
+  p:nth-child(2) label {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    justify-content: start;
+    position: absolute;
+    top: 160px;
+  }
+  
+  p:nth-child(3) label {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    justify-content: start;
+    position: absolute;
+    top: 280px;
+  }
+  
+  p:nth-child(4) label {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    justify-content: start;
+    position: absolute;
+    top: 410px;
+  }
+  
+  p:nth-child(4) input {
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    top: 376px;
+    left: 340px;
+  }
+  
+  .button_1 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(105, 141, 221);
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: -240px;
+    margin-left: 350px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 700;
+  }
+  
+  .button_2 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(105, 141, 221);
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 800px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 700;
+  }
+  
+  .button_3 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(105, 141, 221);
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 800px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 700;
+  }
+  
+  .button_4 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(105, 141, 221);
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: 550px;
+    margin-left: 800px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 700;
+  }
+
+  .button_stop {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(197, 72, 56);
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px 0px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 900;
+  }
+  
+  /* .button_1:focus {
+    outline: 0;
+  }
+  
+  .button_1:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+  }
+  
+  .button_1:active {
+    position: absolute;
+    top: 1px;
+    left: 700px;
+    top: 50px;
+  } */
+  
+  
+  /* url 파트 시작 */
+  
+  .url_1 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(72, 109, 189);
+    border-radius: 10px;
+    width: 250px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: -200px;
+    margin-left: 1200px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 500;
+  }
+  
+  .url_2 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(72, 109, 189);
+    border-radius: 10px;
+    width: 250px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left:1200px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 500;
+  }
+  
+  .url_3 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(72, 109, 189);
+    border-radius: 10px;
+    width: 250px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 1200px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 500;
+  }
+  
+  .url_4 {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    /* background-color: rgb(105, 141, 221); */
+    cursor: pointer;
+    background-color: rgb(72, 109, 189);
+    border-radius: 10px;
+    width: 250px;
+    padding: 8px 0px;
+    font-size: 20px;
+    margin-top: 550px;
+    margin-left: 1200px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* top: 480px; */
+    font-weight: 500;
+  }
+  
+  /* /* url 1
+  .url_1:focus {
+    outline: 0;
+  }
+  
+  .url_1:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+  }
+  
+  .url_1:active {
+    position: absolute;
+    top: 1px;
+    left: 700px;
+    top: 50px;
+  }
+  
+  /*url 2*/
+  /* .url_2:focus {
+    outline: 0;
+  }
+  
+  .url_2:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+  }
+  
+  .url_2:active {
+    position: absolute;
+    top: 1px;
+    left: 700px;
+    top: 50px;
+  }
+  
+  /*button 3*/
+  /* .url_4:focus {
+    outline: 0;
+  }
+  
+  .url_3:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+  }
+  
+  .url_3:active {
+    position: absolute;
+    top: 1px;
+    left: 700px;
+    top: 50px;
+  }
+  
+  /*url 4*/
+  /* .url_4:focus {
+    outline: 0;
+  }
+  
+  .url_4:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+  }
+  
+  .url_4:active {
+    position: absolute;
+    top: 1px;
+    left: 700px;
+    top: 50px;
+  } */
+  
+  .title__:nth-child(4) { /*for1person 부분*/
+    z-index: 3;
+    color: rgb(80, 77, 77);
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+  } */
+  
+  /* .title__:nth-child(5) {
+    z-index: 3;
+    color: white;
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 180px;
+    left: -52px;
+  } */
+  

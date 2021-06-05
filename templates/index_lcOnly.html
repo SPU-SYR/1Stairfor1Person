@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <video class="input_video" ></video>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 class="title">
+          <img class="bg" src="../static/img/k.png" />
+          <br />
+          <span class="title__">1Stair</span>
+          <span span="" class="title__">for1person</span>
+        </h1>
+        <div class="content__form">
+          <div class="img">
+            <h2 class="img__text">pose checking</h2>
+                <div class="img__box">
+                    <input id="audioPlay" type="hidden" />
+                    <input id="count" src = "None" type="hidden" />
+                    <video id="localVideo" autoplay playsinline class = "video"></video>
+                    <canvas id = "canvas" width = localVideo.width height=localVideo.height> </canvas>
+		    <script type="text/javascript">
+
+		  alert("준비중입니다.");
+
+		</script>
+                    <div>
+                    <button id="startButton", class = "button_1"> 1 </button>
+
+                    <button id="startButton_2", class = "button_2"> 2 </button>
+
+                    <button id="startButton_3", class = "button_3"> 3 </button>
+
+                    <button id="startButton_4", class = "button_4"> 4 </button>
+                	<button id="startButton_">Start</button>
+                	<button id="stopButton">Stop</button>
+                    </div>
+                    <audio src = "/static/audio/frontStepUp_1.mp3" id ="audio1" type="audio/mpeg"> audio </audio>
+                    <audio src = "/static/audio/lateralStepUp_2.mp3" id ="audio2" type="audio/mpeg"> audio </audio>
+                    <audio src = "/static/audio/hipExercise_3.mp3" id ="audio3" type="audio/mpeg"> audio </audio>
+                    <audio src = "/static/audio/lungeExercise_4.mp3" id ="audio4" type="audio/mpeg"> audio </audio>
+
+		    <input type="text" id = "count_text" name="searchterm" placeholder="total step count: .." size="35" 
+		    style="background - color:black; border: solid 0.5px #6E6E6E; border-radius: 8px; width=50%;
+		    height: 30px; font-size:30px; vertical-align:3px" this.style.color='#000' disabled/>
+
+                  </form>
+                </div>
+                <button type="1" onclick="window.open('https://www.youtube.com/watch?v=LRuxpFm38uE')" class="url_1"> watch tutorial 1 </button>
+                <button type="2" onclick="window.open('https://www.youtube.com/watch?v=LRuxpFm38uE')" class="url_2"> watch tutorial 2 </button>
+                <button type="3" onclick="window.open('https://www.youtube.com/watch?v=LRuxpFm38uE')" class="url_3"> watch tutorial 3 </button>
+                <button type="4" onclick="window.open('https://www.youtube.com/watch?v=LRuxpFm38uE')" class="url_4"> watch tutorial 4 </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../static/js/adapter.js"></script>
+    <script src="../static/js/jquery-3.6.0.min.js"></script>
+    <script src="../static/js/loadcell_comm.js"></script>
+    <script src="../static/js/Vector.js"></script>
+    <script src="../static/js/poseEstimator.js"></script>
+    <script>
+	var video = document.getElementById("localVideo")
+	function stopVideo(){
+	    video.pause()
+	    video.currentTime = 0
+	}
+    </script>
+  </body>
+</html>
+
+

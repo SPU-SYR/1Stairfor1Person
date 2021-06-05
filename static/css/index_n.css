@@ -1,0 +1,112 @@
+* { padding: 0; margin: 0; }
+
+.input_video{
+	width: 100px;
+	height: 100px;
+}
+.main {
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 1%;
+    height: 100vh;
+}
+.main header {
+	color: white;
+	top: 30%;
+    position: relative;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: fantasy;
+	-webkit-text-stroke: 1px black;
+}
+
+.scene {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 1%;
+    height: 100vh;
+}
+.scene header {
+    color: white;
+    top: 5%;
+    position: relative;
+    text-align: center;
+}
+.scene header h1 {
+    display: block;
+    font-size: xx-large;
+    -webkit-text-stroke: 1px black;
+}
+.scene header h1:after{
+    content: " ";
+    border-bottom: 4px solid white;
+    padding-top: 15%;
+    width: 8rem;
+    margin: 0 auto;
+}
+
+.scene header h2{
+    color: white;
+    -webkit-text-stroke: 1px gray;
+
+}
+.scene input{
+  padding: 0.5%;
+  text-align: center;
+  border-radius: 9px;
+  border: none;
+  font-weight : bold ;
+  cursor: pointer;
+}
+.scene p:nth-child(2){
+    color: white;
+    font-size: large;
+    text-align: center;
+
+}
+
+.scene p:nth-child(4){
+    color: white;
+    font-size: x-large;
+    display: inline-block;
+    text-align: center;
+}
+.scene article {
+    position: relative;
+    top: 7%;
+    text-align: center;
+}
+.scene article canvas{
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 1%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 2%;
+    background-color: white;
+    opacity: 0.7;
+    width: 50%;
+    height: 50%;
+}
+
+.main {
+    background-image: url("../img/walk.jpg");
+}
+.scene.one {
+    background-image: url("../img/running.jpg");
+
+}
+.scene.two {
+    background-image: url("../img/jump.jpg");
+
+}
+.scene.three {
+    background-image: url("../img/feet.jpg");
+}
+.scene.four {
+    background-image: url("../img/running.jpg");
+}
