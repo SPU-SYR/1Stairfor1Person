@@ -94,19 +94,19 @@
 }
 
 .main {
-    background-image: url("../img/walk.jpg");
+    background-image: url("../img/1.jpg");
 }
 .scene.one {
-    background-image: url("../img/running.jpg");
+    background-image: url("../img/2.jpg");
 
 }
 .scene.two {
-    background-image: url("../img/jump.jpg");
+    background-image: url("../img/3.jpg");
 
 }
 .scene.three {
-    background-image: url("../img/feet.jpg");
+    background-image: url("../img/4.jpg");
 }
 .scene.four {
-    background-image: url("../img/running.jpg");
+    background-image: url("../img/5.jpg");
 }

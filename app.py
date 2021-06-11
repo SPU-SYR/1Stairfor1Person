@@ -52,7 +52,7 @@ def loadcell_tt(q, result):
 
 @app.route("/")
 def index():
-    return render_template('index_new.html')
+    return render_template('index.html')
 
 is_true = True
 q = Queue()
