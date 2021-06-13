@@ -4,11 +4,11 @@ The purpose of this project is
 ## 1. Requirments
 Code is written in JavaScript and Python3.6 requires:
 * Library
-  * _Flask_
-  * _pyOpenSSL_
-  * _HX711_
-  * _RPI.GPIO_
-  * _OpenPose_
+  * _Flask 1.1.1+_
+  * _pyOpenSSL 1.1.1a+_
+  * _HX711 1.1.2.3+_
+  * _RPI.GPIO 0.7.0+_
+  * _mediapipe 0.8.5+_
 * HardWare
   * _Raspbarry PI 3+_
   * _LoadCell_
@@ -36,9 +36,9 @@ pip install HX711
 pip install RPI.GPIO
 ```
 **OpenPose**
-> This is OpenSource Library. Please check [follow](https://google.github.io/mediapipe/solutions/pose.html).
+> Please check follow. [LINK1](https://github.com/google/mediapipe) [LINK2](https://google.github.io/mediapipe/solutions/pose.html)
 ```
-https://google.github.io/mediapipe/solutions/pose.html
+pip install mediapipe
 ```
 
 ----------
