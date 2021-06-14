@@ -65,7 +65,7 @@ pip install mediapipe
 - Circuit: Full bridge circuit of loadcell
 ```
 <p align="center">
- <img src="./README/img/7.jpg" width="740" height="480">
+ <img src="./README/img/5.jpg" width="740" height="480">
 </p>
 
 **Whole Part** <br/>
