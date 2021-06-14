@@ -4,11 +4,11 @@ The purpose of this project is
 ## 1. Requirments
 Code is written in JavaScript and Python3.6 requires:
 * Library
-  * _Flask_
-  * _pyOpenSSL_
-  * _HX711_
-  * _RPI.GPIO_
-  * _OpenPose_
+  * _Flask 1.1.1+_
+  * _pyOpenSSL 1.1.1a+_
+  * _HX711 1.1.2.3+_
+  * _RPI.GPIO 0.7.0+_
+  * _mediapipe 0.8.5+_
 * HardWare
   * _Raspbarry PI 3+_
   * _LoadCell_
@@ -36,9 +36,9 @@ pip install HX711
 pip install RPI.GPIO
 ```
 **OpenPose**
-> This is OpenSource Library. Please check [follow](https://google.github.io/mediapipe/solutions/pose.html).
+> Please check follow. [LINK1](https://github.com/google/mediapipe) [LINK2](https://google.github.io/mediapipe/solutions/pose.html)
 ```
-https://google.github.io/mediapipe/solutions/pose.html
+pip install mediapipe
 ```
 
 ----------
@@ -65,7 +65,7 @@ https://google.github.io/mediapipe/solutions/pose.html
 - Circuit: Full bridge circuit of loadcell
 ```
 <p align="center">
- <img src="./README/img/7.jpg" width="740" height="480">
+ <img src="./README/img/5.jpg" width="740" height="480">
 </p>
 
 **Whole Part** <br/>
@@ -80,7 +80,8 @@ https://google.github.io/mediapipe/solutions/pose.html
 ## 4. SoftWare
 **Concept Diagram** <br/>
 <p align="center">
- <img src="./README/img/0.jpg" width="720" height"480">
+ <img src="./README/img/diag1.jpg" width="480" height"480">
+ <img src="./README/img/diag2.jpg" width="480" height"480">
 </p>
 
 ----------
