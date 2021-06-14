@@ -80,7 +80,8 @@ pip install mediapipe
 ## 4. SoftWare
 **Concept Diagram** <br/>
 <p align="center">
- <img src="./README/img/0.jpg" width="720" height"480">
+ <img src="./README/img/diag1.jpg" width="480" height"480">
+ <img src="./README/img/diag2.jpg" width="480" height"480">
 </p>
 
 ----------
