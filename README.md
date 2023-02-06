@@ -1,5 +1,8 @@
 # 1Stairfor1Person
 The purpose of this project is 
+1. To implement rehabilitation step box exercise program webpage which checks whether person is doing several step-exercise correctly through pose estimation
+2. To check and save the total counts of up-and-down steps in the server that person completed through loadcells and Raspberry Pi
+
 
 ## 1. Requirments
 Code is written in JavaScript and Python3.6 requires:
