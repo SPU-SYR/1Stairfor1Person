@@ -38,7 +38,7 @@ pip install HX711
 ```
 pip install RPI.GPIO
 ```
-**OpenPose**
+**Pretrained Pose Estimation Model**
 > Please check follow. [LINK1](https://github.com/google/mediapipe) [LINK2](https://google.github.io/mediapipe/solutions/pose.html)
 ```
 pip install mediapipe
@@ -91,10 +91,10 @@ pip install mediapipe
 
 ## 5. Demonstration
 **Procedure**
-> #### 1. Use openpose for checking whether person is doing several step-excercises: 
+> #### 1. Use Pretrained pose estimation model for checking whether person is doing several step-excercises: 
 > ```
-> * Openpose code runs in javascript
-> * OpenPose source code is from https://google.github.io/mediapipe/solutions/pose.html
+> *  Pretrained pose estimation model code runs in javascript
+> *  Pretrained pose estimation model source code is from https://google.github.io/mediapipe/solutions/pose.html
 > ```
 > #### 2. Use loadcells for checking total count a person stepped up and down the step-box checking difference of weights measured
 > ```
